@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.main {
+    width: 80rem;
+    margin: 0 auto;
+    padding: 6rem 4rem 4rem 3rem;
+
+}
+
+header {
+    text-align: center;
+    margin-bottom: 9rem;
+}
+
+.logo {
+    margin-bottom: 4rem;
+    padding-right: 3rem;
+}
+
+.main-title {
+    text-transform: uppercase;
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+}
+
+.phone-number {
+    font-size: 2.4rem;
+}
+
+.content {
+    /* background-color: rebeccapurple; */
+    padding-left: 2rem;
+}
+
+.sub-title {
+    font-size: 2.6rem;
+    font-weight: 100;
+    margin-bottom: 3rem;
+}
+
+table {
+    width: 100%;
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+}
+
+table td {
+    padding-bottom: 1rem;
+}
+
+.address {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dotted black;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.address span {
+    font-size: 1.8rem;
+}
+
+.sub-address {
+    font-size: 1.8rem;
+}
+
+.discription {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dotted black;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.discription span {
+    font-size: 2rem;
+}
+
+.content-box {
+    display: flex;
+    justify-content: space-between;
+    height: 8rem;
+    border-bottom: 3px dotted black;
+    margin-bottom: 2rem;
+}
+
+
+.content-box span {
+    font-size: 2rem;
+}
+
+.cash-box {
+    display: flex;
+    justify-content: space-between;
+    height: 8rem;
+    margin-bottom: 2rem;
+}
+
+
+.cash-box span {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.image-box {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-log {
+    width: 5rem;
+}
