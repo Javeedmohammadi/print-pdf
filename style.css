@@ -42,7 +42,6 @@ header {
 }
 
 .content {
-    /* background-color: rebeccapurple; */
     padding-left: 2rem;
 }
 
@@ -70,10 +69,6 @@ table td {
     padding-bottom: 1.5rem;
 }
 
-.address span {
-    font-size: 1.8rem;
-}
-
 .sub-address {
     font-size: 1.8rem;
 }
@@ -86,11 +81,15 @@ table td {
     padding-bottom: 1.5rem;
 }
 
-.discription span {
+.discription span,
+.content-box span,
+.cash-box span,
+.address span {
     font-size: 2rem;
 }
 
-.content-box {
+.content-box,
+.cash-box {
     display: flex;
     justify-content: space-between;
     height: 8rem;
@@ -98,22 +97,8 @@ table td {
     margin-bottom: 2rem;
 }
 
-
-.content-box span {
-    font-size: 2rem;
-}
-
 .cash-box {
-    display: flex;
-    justify-content: space-between;
-    height: 8rem;
-    margin-bottom: 2rem;
-}
-
-
-.cash-box span {
-    font-size: 2rem;
-    font-weight: 500;
+    border: none;
 }
 
 .image-box {
